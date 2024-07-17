@@ -1,0 +1,58 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import { SITE, JOURNEY, SOCIALS } from "@consts";
+import ArrowCard from "@components/ArrowCard.astro";
+import Link from "@components/Link.astro";
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+
+const d = new Date();
+let year = d.getFullYear();
+
+---
+
+<Layout title={JOURNEY.TITLE} description={JOURNEY.DESCRIPTION}>
+  <Container>
+    <h1 class="animate font-semibold text-black dark:text-white">
+      My journey 🌆
+    </h1>
+    <div class="space-y-16">
+      <section>
+        <article class="space-y-4">
+          <span class="animate">
+            <p>
+              Hello, I'm Larry, and I'm going to tell you my journey.
+            </p>
+          </span>
+          <span class="animate">
+            <p class="animate font-semibold text-black dark:text-white">
+              2014
+            </p>
+            <p class="animate">
+              I was born.
+            </p>
+            <p class="animate font-semibold text-black dark:text-white">
+              2020
+            </p>
+            <p class="animate">
+              I first got introduced to programming in 2020. I was 6 back then. I learnt the basics, like HTML.
+            </p>
+            <p class="animate font-semibold text-black dark:text-white">
+              2023
+            </p>
+            <p class="animate">
+              During this time, I got introduced to Scratch in school.
+            </p>
+            <p class="animate font-semibold text-black dark:text-white">
+              {year}
+            </p>
+            <p class="animate">
+              Now.
+            </p>
+          </span>
+        </article>
+      </section>
+    </div>
+  </Container>
+</Layout>

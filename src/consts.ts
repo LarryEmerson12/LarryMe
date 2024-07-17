@@ -13,6 +13,16 @@ export const HOME: Metadata = {
   DESCRIPTION: "Introduction.",
 };
 
+export const ABOUT: Metadata = {
+  TITLE: "About",
+  DESCRIPTION: "All about me."
+}
+
+export const JOURNEY: Metadata = {
+  TITLE: "Journey",
+  DESCRIPTION: "My journey."
+}
+
 export const BLOG: Metadata = {
   TITLE: "Blog",
   DESCRIPTION: "A collection of articles on topics I am passionate about.",

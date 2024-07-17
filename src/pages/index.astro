@@ -18,6 +18,10 @@ const projects: CollectionEntry<"projects">[] = (
   .filter((project) => !project.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, SITE.NUM_PROJECTS_ON_HOMEPAGE);
+
+  const birthyear = 2014
+  const year = new Date().getFullYear()
+  const age = year - birthyear
 ---
 
 <Layout title={HOME.TITLE} description={HOME.DESCRIPTION}>
@@ -30,25 +34,15 @@ const projects: CollectionEntry<"projects">[] = (
         <article class="space-y-4">
           <span class="animate">
             <p>
-              I'm a bookworm, author and web-developer that develops apps only for <kbd>you 😜</kbd>.
+              I'm a bookworm, author and web-developer that develops apps.
             </p>
             <p>
-              I used Tailwind CSS to built this website. Astro is incredible! It solved many problems. Perfect Lighthouse score (100% precisely)!
+              I started this website in 2024 and learned progrramming in 2020.
             </p>
           </span>
           <span class="animate">
             <p>
-              Micro still comes with everything great about Nano — full type
-              safety, a sitemap, an RSS feed, and Markdown + MDX support. Styled
-              with TailwindCSS and preconfigured with system, light, and dark
-              themes.
-            </p>
-            <p>
-              Visit
-              <Link href="https://github.com/trevortylerlee/astro-micro">
-                Astro Micro on GitHub
-              </Link>
-              to fork the repository to get started.
+              I'm {age} now. You can see my full journey <a href="/journey">here</a>.
             </p>
           </span>
         </article>
