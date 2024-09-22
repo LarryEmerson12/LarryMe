@@ -19,7 +19,7 @@ Let's see how to use them:
 | actions that happened before this moment | actions that are happening at the moment | actions that will happen after this moment |
 | I <u>ate</u>.                            | I <u>eat</u>.                            | I <u>will eat</u>.                         |
 
-Do you realise that in the past, we use the past form of the verb, in the present we use the present form of the verb and in the future we add the 'will' to the front of the present form of the verb? I hope you do!
+Do you realise that in the past, we use the past form of the verb, in the present we use the present form of the verb and in the future we add the 'will' to the front of the present form of the verb? 
 
 | Past | Present | Future                 |
 | ---- | ------- | ---------------------- |
@@ -31,4 +31,4 @@ Do you realise that in the past, we use the past form of the verb, in the presen
 
 ## Level 4
 
-## You are a master of tenses!
+## Conclusion
