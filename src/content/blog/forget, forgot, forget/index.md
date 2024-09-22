@@ -8,7 +8,7 @@ date: "2024-09-22"
 
 Most people forget to do some tasks in their lives. Whether its a boring task or not, we still forget sometimes. There are _many_ reasons. In this few chapters, we'll go through how we forget, why we forget and how do we solve that. Let's get started.
 
-## The process of forgetting
+## How do we forget?
 
 We eventually forget something or an event is because the memory of it fades with time. If we do not attempt to look back at an event, the greater the interval time between the time when the event from happening and the time when we try to remember, the memory will start to fade. This is how we forget.
 
