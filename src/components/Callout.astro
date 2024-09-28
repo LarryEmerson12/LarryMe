@@ -1,11 +1,11 @@
 ---
 interface Component {
-  type: "default" | "info" | "warning" | "error";
+  type: "default" | "info" | "warning" | "error" | "idea";
 }
 
 const { type = "default" } = Astro.props;
 
-let emoji = "💡";
+let emoji = "📝";
 
 if (type === "info") {
   emoji = "ℹ️";
@@ -13,6 +13,8 @@ if (type === "info") {
   emoji = "⚠️";
 } else if (type === "error") {
   emoji = "🚨";
+} else if (type === "idea") {
+  emoji = "💡";
 }
 ---
 
@@ -23,7 +25,7 @@ if (type === "info") {
 
 <style>
   .callout {
-    @apply relative my-4 flex rounded border border-orange-800 bg-orange-100 p-3 text-orange-950 dark:border-orange-200/20 dark:bg-orange-950/20 dark:text-orange-200;
+    @apply relative my-4 flex rounded border border-teal-800 bg-teal-100 p-3 text-teal-950 dark:border-teal-200/20 dark:bg-teal-950/20 dark:text-teal-200;
   }
 
   .emoji {
@@ -40,5 +42,9 @@ if (type === "info") {
 
   .callout-error {
     @apply border-red-800 bg-red-100 text-red-950 dark:border-red-200/20 dark:bg-red-950/20 dark:text-red-200;
+  }
+
+  .callout-idea {
+    @apply border-green-800 bg-green-100 text-green-950 dark:border-green-200/20 dark:bg-green-950/20 dark:text-green-200;
   }
 </style>
