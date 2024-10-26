@@ -1,7 +1,7 @@
 ---
 title: "Fun Svelte"
-descripton: "A fun project to learn Svelte"
-date: "10/29/2023"
+descripton: "A fun project to learn Svelte."
+date: "10/29/2024"
 url: "https://fun-svelte-chi.vercel.app/"
 ---
 
