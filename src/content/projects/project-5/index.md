@@ -2,7 +2,7 @@
 title: "TimeWasters"
 description: "A set of animations you can look at when you are bored."
 date: "12/11/2024"
-url: ""
+url: "https://github.com/LarryEmerson12/TimeWasters"
 ---
 
 ## Introduction
